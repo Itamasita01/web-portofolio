@@ -1,0 +1,138 @@
+/* scroll */
+BODY {scrollbar-base-color:#EEE;scrollbar-face-color:#F7F7F7;scrollbar-arrow-color:#666;scrollbar-shadow-color:#EEE;scrollbar-highlight-color:#FFF;scrollbar-darkshadow-color:#FFF;scrollbar-track-color:#FFF}
+
+/* Status Mahasiswa */
+table.view-row-header td {
+	color:#333;font-size:13px;font-family:Arial,Helvetica,Sans-serif;background-color:#fff;
+	height:25px;
+}
+table.view-row-content td {
+	color:#333;font-size:14px;font-family:Arial,Helvetica,Sans-serif;background-color:#fff;
+	height:21px;border-bottom:1px solid #ddd;
+}
+table.view-row-pesan td {
+	color:#333;font-size:14px;font-family:Arial,Helvetica,Sans-serif;background-color:#fff;
+	height:21px;
+}
+table.view-row-operasi td {
+	color:#333;font-size:13px;font-family:Arial,Helvetica,Sans-serif;background-color:#fff;
+	height:30px;border-bottom:1px solid #ddd;
+}
+
+/* Daftar MK */
+table.view-mk {
+	background-color:#fff;border:1px solid #000;
+}
+table.view-mk td {
+	color:#333;font-size:12px;font-family:Arial,Helvetica,Sans-serif;background-color:#fff;
+	height:21px;border-bottom:1px solid #000;padding:0px 5px 0px 5px;border-left:1px solid #000;
+}
+table.view-mk td#title{
+	color:#333;font-size:13px;font-family:Arial,Helvetica,Sans-serif;background-color:#fff;text-align:center;font-weight:bold;
+	background:url("title-bg.jpg") bottom left repeat-x;border-bottom:1px solid #000;height:25px;
+}
+table.view-mk td#title-table{
+	color:#333;font-size:13px;font-family:Arial,Helvetica,Sans-serif;background-color:#fff;text-align:center;font-weight:bold;
+	background:url("title-table-bg.jpg") bottom left repeat-x;height:25px;border-bottom:1px solid #000;border-left:1px solid #000;
+}
+table.view-mk td#row-col-table {
+	color:#333;font-size:14px;font-family:Arial,Helvetica,Sans-serif;background-color:#fff;
+	height:25px;border-bottom:1px solid #000;border-left:1px solid #000;padding:0px 3px 0px 3px;
+}
+table.view-mk tr#zebra td {
+	background:url("zebra-bg.jpg") bottom left repeat-x;
+}
+
+/* href */
+table.view-row-content td a, table.view-row-header a ,table.view-mk td#row-col-table a ,table.view-row-pesan a{
+	color:#003366;text-decoration:none;
+}
+table.view-row-content td a:hover, table.view-row-header a:hover , table.view-mk td#row-col-table a:hover, table.view-row-pesan a:hover {
+	color:#06c;text-decoration:none;
+}
+
+/* Tombol */
+.button-operasi {
+  border: 1px solid #3079ed;color: #fff;text-shadow: 0 1px rgba(0,0,0,0.1);background-color: #4d90fe;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed));
+  background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+  background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+  background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+  background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+  background-image: linear-gradient(top,#4d90fe,#4787ed);
+ }
+ .button-operasi:hover {
+  border: 1px solid #2f5bb7;color: #fff;text-shadow: 0 1px rgba(0,0,0,0.3);background-color: #357ae8;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#357ae8));
+  background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+  background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
+  background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
+  background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
+  background-image: linear-gradient(top,#4d90fe,#357ae8);
+ }
+ .button-operasi:active {
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+ }
+ .button-operasi:visited {
+  color: #fff;
+ }
+ .button-submit:focus {
+  -webkit-box-shadow: inset 0 0 0 1px #fff;
+  -moz-box-shadow: inset 0 0 0 1px #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+ }
+ .button-operasi:focus:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #fff, 0 1px 1px rgba(0,0,0,0.1);
+  -moz-box-shadow: inset 0 0 0 1px #fff, 0 1px 1px rgba(0,0,0,0.1);
+  box-shadow: inset 0 0 0 1px #fff, 0 1px 1px rgba(0,0,0,0.1);
+ }
+
+/* Transkrip Akademik */
+table.view-transkrip {
+	background-color:#fff;border:1px solid #000;
+}
+table.view-transkrip td {
+	color:#333;font-size:12px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;
+	height:15px;padding:0px 5px 0px 2px;
+}
+table.view-transkrip td#uline {
+	color:#333;font-size:12px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;
+	height:15px;padding:0px 5px 0px 2px;border-bottom:1px solid #000;
+}
+
+
+table.view-transkrip-content-title td {
+	color:#333;font-size:13px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;
+	height:20px;padding:0px 5px 0px 2px;
+}
+table.view-transkrip-content-title td#uline {
+	color:#333;font-size:16px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;
+	height:20px;padding:0px 5px 0px 2px;border-bottom:1px solid #000;
+}
+
+
+table.view-transkrip-content td {
+	color:#333;font-size:13px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;
+	height:15px;padding:0px 5px 0px 2px;
+}
+table.view-transkrip-content td#uline {
+	color:#333;font-size:13px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;
+	height:15px;padding:0px 5px 0px 2px;border-bottom:1px solid #000;
+}
+table.view-transkrip-content td#box {
+	color:#333;font-size:13px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;
+	height:15px;padding:0px 5px 0px 2px;border:1px solid #000;
+}
+table.view-transkrip-content td#title-table{
+	color:#333;font-size:12px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;text-align:center;font-weight:bold;
+	height:15px;padding:3px 5px 3px 2px;border-top:0px solid #000;border-bottom:1px solid #000;
+}
+table.view-transkrip-content td#row-col-table {
+	color:#333;font-size:12px;font-family:"Times New Roman",Sans-serif,Arial,Helvetica;background-color:#fff;
+	height:15px;padding:0px 3px 0px 3px;
+}
+
+
+
